@@ -1,16 +1,19 @@
 return {
     {
-        'zbirenbaum/copilot.lua',
-        -- cmd = "Copilot",
-        -- event = "InsertEnter",
-        -- opts = {
-        --     suggestion = {
-        --         keymap = {
-        --             next = "<A-]>",
-        --             prev = "<A-[>",
-        --         },
-        --     },
-        -- },
+       'zbirenbaum/copilot.lua',
+       config = function()
+           require('copilot').setup({})
+       end
+     -- cmd = "Copilot",
+     -- event = "InsertEnter",
+     -- opts = {
+     --     suggestion = {
+     --         keymap = {
+     --             next = "<A-]>",
+     --             prev = "<A-[>",
+     --         },
+     --     },
+     -- },
     },
     -- {
     --     "zbirenbaum/copilot-cmp",

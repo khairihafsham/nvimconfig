@@ -1,15 +1,5 @@
 return {
     {'ionide/Ionide-vim'},
-    {
-        'nvim-treesitter/nvim-treesitter',
-        opts = {
-            ensure_installed = {'c_sharp', 'python', 'elixir', 'fsharp', 'bash', 'c', 'ruby'},
-            auto_install = true,
-            highlight = {
-                enable = true,
-            }
-        }
-    },
     {'SirVer/ultisnips'},
     {
         'quangnguyen30192/cmp-nvim-ultisnips',

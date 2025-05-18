@@ -28,7 +28,14 @@ return {
         ft = "cs",
         opts = {
             config = {
-                on_attach = on_attach
+                on_attach = on_attach,
+                cmd = {
+                    "dotnet",
+                    "/Users/khairihafsham/.local/share/nvim/roslyn/Microsoft.CodeAnalysis.LanguageServer.dll",
+                    "--logLevel=Information",
+                    "--extensionLogDirectory=" .. vim.fs.dirname(vim.lsp.get_log_path()),
+                    "--stdio",
+                },
             },
         }
     }
