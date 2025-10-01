@@ -25,7 +25,7 @@ set ttyfast                 " Speed up scrolling in Vim
 " set noswapfile            " disable creating swap file
 set backupdir=~/.vim_backups
 set splitright             " open new split windows to the right
-set autochdir              " change cwd to current open file
+" set autochdir              " change cwd to current open file
 
 nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
 

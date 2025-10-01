@@ -30,7 +30,7 @@ return {
             config = {
                 on_attach = on_attach,
                 cmd = {
-                    "dotnet",
+                    "/usr/local/share/dotnet/dotnet",
                     "/Users/khairihafsham/.local/share/nvim/roslyn/Microsoft.CodeAnalysis.LanguageServer.dll",
                     "--logLevel=Information",
                     "--extensionLogDirectory=" .. vim.fs.dirname(vim.lsp.get_log_path()),
